@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/StringUtils.dir/StringUtils.c.o"
   "CMakeFiles/StringUtils.dir/main.c.o"
   "StringUtils"
   "StringUtils.pdb"

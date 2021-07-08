@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guts/modules/github/StringUtils/StringUtils.h
+
+/home/guts/modules/github/StringUtils/main.c
+stdio.h
+-
+string.h
+-
+StringUtils.h
+/home/guts/modules/github/StringUtils/StringUtils.h
+

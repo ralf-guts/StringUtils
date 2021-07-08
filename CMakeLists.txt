@@ -3,4 +3,7 @@ project(StringUtils C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(StringUtils main.c)
+include_directories( ${PROJECT_SOURCE_DIR} )
+aux_source_directory( ${PROJECT_SOURCE_DIR} source )
+
+add_executable( StringUtils ${source} )

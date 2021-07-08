@@ -142,6 +142,33 @@ StringUtils/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringUtils.dir/build.make CMakeFiles/StringUtils.dir/build
 .PHONY : StringUtils/fast
 
+StringUtils.o: StringUtils.c.o
+
+.PHONY : StringUtils.o
+
+# target to build an object file
+StringUtils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringUtils.dir/build.make CMakeFiles/StringUtils.dir/StringUtils.c.o
+.PHONY : StringUtils.c.o
+
+StringUtils.i: StringUtils.c.i
+
+.PHONY : StringUtils.i
+
+# target to preprocess a source file
+StringUtils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringUtils.dir/build.make CMakeFiles/StringUtils.dir/StringUtils.c.i
+.PHONY : StringUtils.c.i
+
+StringUtils.s: StringUtils.c.s
+
+.PHONY : StringUtils.s
+
+# target to generate assembly for a file
+StringUtils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringUtils.dir/build.make CMakeFiles/StringUtils.dir/StringUtils.c.s
+.PHONY : StringUtils.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StringUtils"
+	@echo "... StringUtils.o"
+	@echo "... StringUtils.i"
+	@echo "... StringUtils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
