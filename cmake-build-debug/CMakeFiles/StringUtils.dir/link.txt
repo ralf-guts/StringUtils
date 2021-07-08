@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/StringUtils.dir/main.c.o -o StringUtils 
